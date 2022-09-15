@@ -3,7 +3,7 @@
   --Strong-Cyan: hsl(171, 66%, 44%);
   --Light-Blue: hsl(233, 100%, 69%);
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-/*   --Grayish-Blue: hsl(201, 11%, 60%); */
+  --Grayish-Blue: hsl(201, 11%, 60%);
   --padding-section: 6.25rem;
 }
 
@@ -68,20 +68,14 @@ body {
   font-size: 1rem;
 }
 .button {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 .button button {
-  width: 227px;
-height: 55px;
-margin-left: 0.5rem;
-margin-right: 0.5rem;
-border: none;
-border-radius: 55px;
-font-size: 1.12rem;
-letter-spacing: .05rem;
-font-family: 'Bai Jamjuree', sans-serif;
-color: white;
-/*   width: 230px;
+  width: 250px;
   display: inline-block;
   border: none;
   outline: none;
@@ -92,7 +86,7 @@ color: white;
   cursor: pointer;
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: "Bai Jamjuree", sans-serif; */
+  font-family: "Bai Jamjuree", sans-serif;
 }
 .button button.green {
   background-color: var(--Strong-Cyan);
@@ -108,7 +102,7 @@ color: white;
 .button button:hover {
   opacity: 0.7;
 }
-@media (max-width: 530px) {
+@media (max-width: 560px) {
   .button button {
     width: 100%;
   }
