@@ -90,8 +90,6 @@ body {
 }
 .button button.green {
   background-color: var(--Strong-Cyan);
-  margin-right: 1rem;
-  margin-bottom: 1.2rem;
   box-shadow: 0px 3px 20px 0px var(--Strong-Cyan), 1px 3px hsl(171deg 100% 30%);
 }
 .button button.blue {
@@ -101,11 +99,6 @@ body {
 
 .button button:hover {
   opacity: 0.7;
-}
-@media (max-width: 560px) {
-  .button button {
-    width: 100%;
-  }
 }
 /*=============== End Main Heading & Button ===============*/
 
