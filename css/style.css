@@ -64,9 +64,11 @@ body {
   max-width: 620px;
   margin: 0 auto 3.2rem;
   color: var(--Grayish-Blue);
-  line-height: 1.6;
-  font-size: 1.125rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+    line-height: 1.85rem;
+    font-weight: 200;
+    letter-spacing: .027rem;
+
 
 /*     line-height: 1.85rem;
     font-weight: 200;
