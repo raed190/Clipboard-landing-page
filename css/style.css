@@ -3,7 +3,7 @@
   --Strong-Cyan: hsl(171, 66%, 44%);
   --Light-Blue: hsl(233, 100%, 69%);
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-  --Grayish-Blue: hsl(201, 11%, 60%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
   --padding-section: 6.25rem;
 }
 
@@ -64,8 +64,9 @@ body {
   max-width: 620px;
   margin: 0 auto 3.2rem;
   color: var(--Grayish-Blue);
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 1rem;
+  letter-spacing: 0.027rem;
 }
 .button {
   display: flex;
