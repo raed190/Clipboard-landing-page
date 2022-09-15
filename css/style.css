@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.head h2 {
+.head h1 {
   color: var(--Dark-Grayish-Blue);
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -64,16 +64,8 @@ body {
   max-width: 620px;
   margin: 0 auto 3.2rem;
   color: var(--Grayish-Blue);
-  font-size: 1.25rem;
-    line-height: 1.85rem;
-    font-weight: 200;
-    letter-spacing: .027rem;
-
-
-/*     line-height: 1.85rem;
-    font-weight: 200;
-    letter-spacing: .027rem; */
-
+  line-height: 1.6;
+  font-size: 1rem;
 }
 .button {
   text-align: center;
@@ -122,7 +114,7 @@ header .logo {
   padding: 5rem 0 2.5rem;
 }
 
-header .head h2 {
+header .head h1 {
   font-size: 2.2rem;
 }
 header .head p {
@@ -133,7 +125,7 @@ header .head p {
     background: url(../images/bg-header-mobile.png) no-repeat bottom;
     background-size: cover;
   }
-  header .head h2 {
+  header .head h1 {
     font-size: 2rem;
   }
 }
@@ -174,7 +166,7 @@ header .head p {
 .fets .fet p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1rem;
   max-width: 350px;
   margin: 0 auto 0 0;
 }
@@ -227,7 +219,7 @@ header .head p {
 .services .serv .box p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1rem;
   max-width: 345px;
   margin: 0 auto;
 }
