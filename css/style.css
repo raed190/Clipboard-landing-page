@@ -134,6 +134,7 @@ header .head p {
 /*=============== End Features =============== */
 .features {
   padding-top: var(--padding-section);
+  background-color: hsl(220deg 18% 97%);
 }
 
 .features .body {
