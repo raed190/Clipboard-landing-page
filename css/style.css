@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --padding-section: 6.25rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*=============== Start Main Heading & Button ===============*/
+.head {
+  text-align: center;
+}
+
+.head h1 {
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.head p {
+  max-width: 620px;
+  margin: 0 auto 3.2rem;
+  color: var(--Grayish-Blue);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.button {
+  text-align: center;
+}
+.button button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 3.2rem;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.button button.green {
+  background-color: var(--Strong-Cyan);
+  margin-right: 1rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0px 3px 20px 0px var(--Strong-Cyan), 1px 3px hsl(171deg 100% 30%);
+}
+.button button.blue {
+  background-color: var(--Light-Blue);
+  box-shadow: 0px 3px 20px 0px var(--Light-Blue), 1px 3px hsl(233deg 80% 61%);
+}
+
+.button button:hover {
+  opacity: 0.7;
+}
+@media (max-width: 530px) {
+  .button button {
+    width: 100%;
+  }
+}
+/*=============== End Main Heading & Button ===============*/
+
+/*=============== Start Header =============== */
+header {
+  background: url(../images/bg-header-desktop.png) no-repeat bottom;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+header .logo {
+  padding: 5rem 0 2.5rem;
+}
+
+header .head h1 {
+  font-size: 2.2rem;
+}
+header .head p {
+  max-width: 570px;
+}
+@media (max-width: 375px) {
+  header {
+    background: url(../images/bg-header-mobile.png) no-repeat bottom;
+    background-size: cover;
+  }
+  header .head h1 {
+    font-size: 2rem;
+  }
+}
+/*=============== End Header =============== */
+
+/*=============== End Features =============== */
+.features {
+  padding-top: var(--padding-section);
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.features .body .image {
+  flex-basis: 50%;
+}
+.features .body img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.fets {
+  flex-basis: 40%;
+}
+
+.fets .fet {
+  padding: 1.25rem 0;
+}
+
+.fets .fet h2 {
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.fets .fet p {
+  color: var(--Grayish-Blue);
+  line-height: 1.6;
+  font-size: 1rem;
+  max-width: 350px;
+  margin: 0 auto 0 0;
+}
+
+@media (max-width: 768px) {
+  section .body {
+    flex-direction: column;
+  }
+  .fets {
+    text-align: center;
+    margin-top: 3.125rem;
+  }
+  .fets .fet p {
+    margin: 0 auto;
+  }
+}
+/*=============== End Features =============== */
+
+/*=============== Start Services =============== */
+.services {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+}
+.services .image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .image img {
+  max-width: 100%;
+  margin-bottom: 3.125rem;
+}
+
+.services .serv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.services .serv .box {
+  padding: 1.25rem;
+  text-align: center;
+}
+.services .serv .box img {
+  max-width: 100%;
+}
+.services .serv .box h2 {
+  margin: 1.9rem 0 1.25rem;
+  color: var(--Dark-Grayish-Blue);
+}
+.services .serv .box p {
+  color: var(--Grayish-Blue);
+  line-height: 1.6;
+  font-size: 1rem;
+  max-width: 345px;
+  margin: 0 auto;
+}
+/*=============== End Services ===============*/
+
+/*=============== Start Brand ===============*/
+.brand {
+  padding-bottom: var(--padding-section);
+}
+
+.brand .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+}
+.brand img:not(:last-child) {
+  margin-bottom: 4.4rem;
+}
+/*=============== End Brand ===============*/
+
+/*=============== Start APP ===============*/
+.app {
+  padding-bottom: var(--padding-section);
+}
+/*=============== End APP ===============*/
+
+/*=============== Start Footer ===============*/
+footer {
+  padding-top: calc(var(--padding-section) - 3.125rem);
+  padding-bottom: calc(var(--padding-section) - 3.125rem);
+  background-color: hsl(220deg 18% 97%);
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-logo {
+  width: 70px;
+}
+footer .footer-logo img {
+  max-width: 100%;
+}
+
+footer .link {
+  max-width: 500px;
+  margin-left: 1.81rem;
+}
+footer .link ul li {
+  display: inline-block;
+}
+
+footer .link ul .top {
+  padding-left: 8rem;
+}
+footer .link ul .bottom {
+  padding-left: 4.5rem;
+}
+
+footer .link ul li a {
+  display: inline-block;
+  color: var(--Dark-Grayish-Blue);
+  padding-right: 1.5rem;
+  margin-top: 1.25rem;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+footer .link ul li a:hover {
+  color: var(--Strong-Cyan);
+}
+footer .icon i {
+  cursor: pointer;
+  margin-right: 1.6rem;
+  margin-top: 1.25rem;
+  transition: 0.5s;
+  font-size: 2rem;
+  color: var(--Dark-Grayish-Blue);
+}
+footer .icon i:hover {
+  color: var(--Strong-Cyan);
+}
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+  }
+  footer .link {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+  }
+  footer .link ul li {
+    display: block;
+  }
+  footer .link ul .top {
+    padding: 0;
+  }
+  footer .link ul .bottom {
+    padding: 0;
+  }
+  footer .icon {
+    margin-left: 2.5rem;
+  }
+  footer .icon img {
+    margin-right: 2.5rem;
+  }
+}
+/*=============== End Footer ===============*/
