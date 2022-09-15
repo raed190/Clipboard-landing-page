@@ -3,7 +3,7 @@
   --Strong-Cyan: hsl(171, 66%, 44%);
   --Light-Blue: hsl(233, 100%, 69%);
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-
+  --Grayish-Blue: hsl(201, 11%, 66%);
   --padding-section: 6.25rem;
 }
 
@@ -66,6 +66,7 @@ body {
   color: var(--Grayish-Blue);
   line-height: 1.6;
   font-size: 1.125rem;
+  font-weight: 200;
 
 /*     line-height: 1.85rem;
     font-weight: 200;
@@ -130,7 +131,7 @@ header .head p {
     background: url(../images/bg-header-mobile.png) no-repeat bottom;
     background-size: cover;
   }
-  header .head h1 {
+  header .head h2 {
     font-size: 2rem;
   }
 }
