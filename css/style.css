@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.head h2 {
+.head h1 {
   color: var(--Dark-Grayish-Blue);
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -65,7 +65,7 @@ body {
   margin: 0 auto 3.2rem;
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 .button {
   text-align: center;
@@ -166,7 +166,7 @@ header .head p {
 .fets .fet p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 1.125rem;
   max-width: 350px;
   margin: 0 auto 0 0;
 }
@@ -219,7 +219,7 @@ header .head p {
 .services .serv .box p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 1.125rem;
   max-width: 345px;
   margin: 0 auto;
 }
