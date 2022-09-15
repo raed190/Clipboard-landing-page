@@ -3,7 +3,7 @@
   --Strong-Cyan: hsl(171, 66%, 44%);
   --Light-Blue: hsl(233, 100%, 69%);
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-  --Grayish-Blue: hsl(201, 11%, 60%);
+/*   --Grayish-Blue: hsl(201, 11%, 60%); */
   --padding-section: 6.25rem;
 }
 
@@ -65,7 +65,7 @@ body {
   margin: 0 auto 3.2rem;
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 .button {
   text-align: center;
@@ -169,7 +169,7 @@ header .head p {
 .fets .fet p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1rem;
   max-width: 350px;
   margin: 0 auto 0 0;
 }
@@ -222,7 +222,7 @@ header .head p {
 .services .serv .box p {
   color: var(--Grayish-Blue);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1rem;
   max-width: 345px;
   margin: 0 auto;
 }
