@@ -71,7 +71,17 @@ body {
   text-align: center;
 }
 .button button {
-  width: 230px;
+  width: 227px;
+height: 55px;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+border: none;
+border-radius: 55px;
+font-size: 1.12rem;
+letter-spacing: .05rem;
+font-family: 'Bai Jamjuree', sans-serif;
+color: white;
+/*   width: 230px;
   display: inline-block;
   border: none;
   outline: none;
@@ -82,7 +92,7 @@ body {
   cursor: pointer;
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: "Bai Jamjuree", sans-serif;
+  font-family: "Bai Jamjuree", sans-serif; */
 }
 .button button.green {
   background-color: var(--Strong-Cyan);
