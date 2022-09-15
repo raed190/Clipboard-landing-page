@@ -62,15 +62,15 @@ body {
 }
 .head p {
   max-width: 620px;
-  font-size: 1.115rem;
-    line-height: 1.85rem;
-    font-weight: 200;
-color: var(--Grayish-Blue);
-/*   max-width: 620px;
   margin: 0 auto 3.2rem;
-  color: var(--Grayish-Blue);
+
   line-height: 1.6;
-  font-size: 1.125rem; */
+  font-size: 1.125rem;
+
+/*     line-height: 1.85rem;
+    font-weight: 200;
+    letter-spacing: .027rem; */
+
 }
 .button {
   text-align: center;
