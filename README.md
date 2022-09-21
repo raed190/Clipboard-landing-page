@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page solution
 
-This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/four-card-feature-section-responsive-with-beautiful-hover-effect-aojtqvDvLK)
-- Live Site URL: [live site URL ](https://raed190.github.io/Four-card-feature-section/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-responsive-using-css-grid-and-css-flex-AFuGsG-e1c)
+- Live Site URL: [live site URL ](https://raed190.github.io/Clipboard-landing-page/)
 
 ## My process
 
@@ -45,7 +45,8 @@ Users should be able to:
 
 ### What I learned
 
-To build faster a Landing Page and create containers
+- HTML
+- CSS
 
 ### Useful resources
 
